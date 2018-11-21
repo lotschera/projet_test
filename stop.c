@@ -147,7 +147,7 @@ int main (int argc, char *argv[]) {
 
   puts("Arrêter les servomoteurs");
   // A compléter
-  
+   
   ev3_uninit();
     
   puts("Bye IIUN!");
