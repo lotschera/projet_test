@@ -147,6 +147,7 @@ int main (int argc, char *argv[]) {
 
   puts("Arrêter les servomoteurs");
   // A compléter
+  MULTI_SET_TACHO_STOP_ACTION_INX (tacho_sn, TACHO_BRAKE);
   
   ev3_uninit();
     
